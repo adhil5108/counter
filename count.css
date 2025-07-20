@@ -1,0 +1,17 @@
+body{background-color: black;}
+
+
+.btn{
+padding: 10px 20px;
+border-radius: 8px;
+}
+.div{display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+gap: 20px;  flex-direction: column; 
+}
+.dis{height: 50px;
+width: 250px;
+background-color: aliceblue;
+}
