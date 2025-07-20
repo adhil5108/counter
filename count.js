@@ -1,10 +1,14 @@
 function counter(){
 let count=0;
+
   return{increment: function (){
     return ++count;
    },
         decrement:function(){
-           return --count;
+          if(count>0){ 
+            return --count;
+          }
+          else{return "cannot go below zero"}
         },
       reset:function(){
        return count=0;
