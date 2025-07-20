@@ -8,7 +8,7 @@ let count=0;
           if(count>0){ 
             return --count;
           }
-          else{return "cannot go below zero"}
+          else{return 0}
         },
       reset:function(){
        return count=0;
